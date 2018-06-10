@@ -1,0 +1,13 @@
+1.相关约定
+	编码UTF-8
+	
+2.分页
+	   sqlmap selectByExample 方法最后添加 <include refid="PAGE_QUERY.Mysql_Pagination" />
+	   
+		public class AcctDOCondition {
+			private Page             page;
+		}
+		
+		if (req.getStartIndex() != null && req.getLength() != null) {
+            example.setPage(Page.init(req.getStartIndex(), req.getLength()));
+        }
