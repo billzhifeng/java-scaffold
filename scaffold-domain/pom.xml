@@ -8,15 +8,13 @@
 	</parent>
 	<artifactId>scaffold-domain</artifactId>
 	<dependencies>
-		<!-- zk redis diamond dubbo 等配置访问 -->
 		<dependency>
-			<groupId>com.github.resouce-utils</groupId>
-			<artifactId>spring-boot-resource-utils-starter</artifactId>
+			<groupId>com.github.scaffold</groupId>
+			<artifactId>scaffold-common</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.github.scaffold</groupId>
 			<artifactId>scaffold-dal</artifactId>
 		</dependency>
-
 	</dependencies>
 </project>

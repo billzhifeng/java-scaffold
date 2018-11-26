@@ -15,6 +15,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>com.github.scaffold</groupId>
 			<artifactId>scaffold-app-service</artifactId>

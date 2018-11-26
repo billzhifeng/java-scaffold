@@ -7,16 +7,18 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>scaffold-dal</artifactId>
-
 	<dependencies>
-		<!-- 单数据源 -->
 		<dependency>
-			<groupId>com.github.druid.starter</groupId>
-			<artifactId>spring-boot-single-druid-starter</artifactId>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.github.scaffold</groupId>
-			<artifactId>scaffold-common</artifactId>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 	</dependencies>
 </project>

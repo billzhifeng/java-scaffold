@@ -13,21 +13,6 @@
 			<groupId>com.github.scaffold</groupId>
 			<artifactId>scaffold-domain</artifactId>
 		</dependency>
-		<!-- web服务 有页面 -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<!-- 监控权限 -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<!-- 权限 -->
-		<dependency>
-			<groupId>org.codehaus.janino</groupId>
-			<artifactId>janino</artifactId>
-		</dependency>
 	</dependencies>
 	
 	<build>
